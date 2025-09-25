@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 site_name: My site
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+=======
+site_name: My Docs
+>>>>>>> d505d40 (init)
