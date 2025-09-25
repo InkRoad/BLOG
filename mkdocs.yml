@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-site_name: My site
-site_url: https://mydomain.org/mysite
-theme:
+site_name: InkRoad-Note
+site_url: https://InkRoad.github.io/BLOG
+site_author: InkRoad
+site_description: InkRoad-Mewo
   name: material
-=======
-site_name: My Docs
->>>>>>> d505d40 (init)
