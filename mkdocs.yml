@@ -59,7 +59,7 @@ theme:
     repo: fontawesome/brands/github
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
-edit_uri: edit/main/docs/
+#edit_uri: edit/main/docs/
 # [top-right corner]
 # [添加 GitHub 仓库]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
@@ -81,10 +81,8 @@ extra:
       link: https://github.com/InkRoad
     - name: Bilibili | InkRoad
       icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/24502827
     - name: 打赏支持
       icon: fontawesome/solid/mug-saucer
-      link: https://InkRoad.github.io/ME/support/
 
 # [Extensions]
 plugins:
