@@ -1,6 +1,6 @@
 site_name: InkRoad-Note
-#site_url: https://InkRoad.github.io/BLOG
-#site_author: InkRoad
+site_url: https://InkRoad.github.io/BLOG
+site_author: InkRoad
 site_description: InkRoad-Mewo!
 theme:
   name: material
@@ -63,7 +63,7 @@ edit_uri: edit/main/docs/
 # [top-right corner]
 # [添加 GitHub 仓库]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io
+repo_url: https://github.com/InkRoad
 repo_name: InkRoad.io
 # [bottom-left corner]
 # [版权说明]
