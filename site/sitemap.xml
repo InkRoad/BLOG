@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/BRIEF/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/NOTE/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/NOTE/C/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/NOTE/STM32/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://InkRoad.github.io/BLOG/TOOL/</loc>
+         <lastmod>2025-09-25</lastmod>
+    </url>
 </urlset>
