@@ -1,4 +1,4 @@
-# MkDocs构建静态网站模板
+# 基于MKDOCS的文档网站搭建
 
 <https://github.com/Yang-Xijie/mkdocs-site>
 
