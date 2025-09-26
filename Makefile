@@ -2,9 +2,13 @@
 .PHONY: list
 .PHONY: bind
 .PHONY: rebind
+.PHONY: init
 
 LOCAL ?=
 REPO ?=
+
+init:
+	@git init
 
 push:
 	@git add . && \
