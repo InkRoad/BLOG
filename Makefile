@@ -3,6 +3,7 @@
 .PHONY: bind
 .PHONY: rebind
 .PHONY: init
+.PHONY: run
 
 LOCAL ?=
 REPO ?=
@@ -23,3 +24,7 @@ bind:
 
 rebind:
 	@git remote set-url ${LOCAL} git@github.com:InkRoad/${REPO}.git
+
+
+run:
+	@mkdocs serve

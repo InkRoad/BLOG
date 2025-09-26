@@ -3,23 +3,6 @@ site_url: https://InkRoad.github.io/BLOG
 site_author: InkRoad
 site_description: InkRoad-Mewo!
 
-# [Navigtion]
-nav:
-  - 简介:
-    - BRIEF/index.md
-
-
-  - 笔记:
-    - NOTE/index.md
-    - 语言基础:
-      - C: NOTE/C.md
-  
-    - 单片机:
-      - STM32: NOTE/STM32.md
-    
-  - 实用工具:
-    - TOOL/index.md 
-
 theme:
   name: material
   # [切换日间模式和夜间模式]
@@ -57,7 +40,7 @@ theme:
     - navigation.indexes
     # 打开 Tab 时左侧目录全部展开
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
-    - navigation.expand
+    #- navigation.expand
     # 搜索输入一些字母时推荐补全整个单词
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
@@ -72,6 +55,22 @@ theme:
     # [添加 GitHub 仓库]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository-icon
     repo: fontawesome/brands/github
+    admonition:
+      note: octicons/pencil-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  favicon: assets/ylb.png
+
+
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
 edit_uri: edit/main/docs/
@@ -83,7 +82,7 @@ repo_name: InkRoad
 # [bottom-left corner]
 # [版权说明]
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
-copyright: InkRoad ADORE-WLT-1.0
+copyright: InkRoad ADORE-PatTing-1.0
 # [bottom-right corner]
 extra:
   # [添加社交网络图标和链接]
@@ -99,6 +98,8 @@ extra:
     - name: 打赏支持
       icon: fontawesome/solid/mug-saucer
 
+
+
 # [Extensions]
 plugins:
   # [搜索功能]
@@ -113,6 +114,8 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#meta.tags
   - tags
+
+
 markdown_extensions:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
@@ -165,3 +168,25 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+
+
+# [Navigtion]
+nav:
+  - 简介:
+    - BRIEF/index.md
+
+
+  - 笔记:
+    - NOTE/index.md
+    - 语言基础:
+      - C: NOTE/C.md
+  
+    - 单片机:
+      - STM32: NOTE/STM32.md
+    
+  - 实用工具:
+    - TOOL/index.md 
+    - TOOL/source.md
+    - 工作流学习:
+      - TOOL/Makefile.md
+      - TOOL/Git.md
