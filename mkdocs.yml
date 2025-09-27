@@ -97,7 +97,8 @@ extra:
       icon: fontawesome/brands/bilibili
     - name: 打赏支持
       icon: fontawesome/solid/mug-saucer
-
+  extra_css:
+    - extrastyle/extra.css
 
 
 # [Extensions]

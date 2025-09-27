@@ -8,4 +8,4 @@
 - 生成 [MkDocs](https://www.mkdocs.org) 
 - 主题 [Material](https://squidfunk.github.io/mkdocs-material/)
 - 仓库 [Repository](https://github.com/squidfunk/mkdocs-material)
-
+- 图标仓库 [iconRepo](https://github.com/primer/octicons/tree/main/icons)
