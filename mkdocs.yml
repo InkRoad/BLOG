@@ -184,6 +184,7 @@ nav:
   
     - 单片机:
       - STM32: NOTE/STM32.md
+      - PID控制: NOTE/PID.md
     
   - 实用工具:
     - TOOL/index.md 
