@@ -133,7 +133,7 @@ $~~$
 ※ 增量式`PID -- Out(k)`的值是执行器在原先的基础上+上该值  
 <center>$out(k) = K_p*error(k) + K_i*\sum_{j=0}^{k}error(j) + K_d*[error(k) - error(k-1)]$</center>  
 $~~$
-<center>$out(k-1) = K_p*error(k-1) + K_i*\sum_{j=0}^{k-1}error(j) + K_d*[error(k) - error(k-2)]$</center>  
+<center>$out(k-1) = K_p*error(k-1) + K_i*\sum_{j=0}^{k-1}error(j) + K_d*[error(k-1) - error(k-2)]$</center>  
 做差得，
 
 <center>$\Delta out(k) = K_p*(error(k)-error(k-1)) + K_i*error(k) + K_d*(error(k)-2error(k-1)+error(k-2))$</center>  
