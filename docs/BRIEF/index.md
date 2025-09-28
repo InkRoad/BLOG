@@ -9,6 +9,8 @@
 
 !!! success "点击左上边栏选择想要跳转的页面查看使用！(电脑体验更佳哦)"
 
+!!! warning "当前状态：笔记上传ing"  
+
 <div align="center">
   <img src="../assets/heart.png" width="15%" />
 </div>

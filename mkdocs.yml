@@ -180,15 +180,29 @@ nav:
   - 笔记:
     - NOTE/index.md
     - 语言基础:
-      - C: NOTE/C.md
+      - C/C++: NOTE/C.md
+      - Python: NOTE/Python.md
+      - Rust: NOTE/Rust.md
+      - Java: NOTE/Java.md
   
     - 单片机:
       - STM32: NOTE/STM32.md
+      - Ti板: NOTE/Ti.md
       - PID控制: NOTE/PID.md
+
+    - 计算机科学:
+      - 计算机网络: NOTE/computer_network.md
+      - 计算机组成原理: NOTE/computer_organization.md
+      - 操作系统: NOTE/operation_system.md
+      - 数据结构与算法设计: NOTE/Data_Structure_algorithm.md
+
+    - 软件学习:
+      - SolidWorks: NOTE/solidworks.md
     
   - 实用工具:
     - TOOL/index.md 
     - TOOL/source.md
     - 工作流学习:
+      - TOOL/Markdown.md
       - TOOL/Makefile.md
       - TOOL/Git.md
