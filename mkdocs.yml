@@ -184,18 +184,19 @@ nav:
       - Python: NOTE/Python.md
       - Java: NOTE/Java.md
       - Rust: NOTE/Rust.md
-      - HTML: Note/html.md
+      - Scheme: NOTE/scheme.md
   
     - 单片机:
       - STM32: NOTE/STM32.md
       - Ti板: NOTE/Ti.md
       - PID控制: NOTE/PID.md
+      - PCB设计: NOTE/electronic designer.md
 
     - 计算机科学:
       - 计算机网络: NOTE/computer_network.md
       - 计算机组成原理: NOTE/computer_organization.md
       - 操作系统: NOTE/operation_system.md
-      - 数据结构与算法设计: NOTE/Data_Structure_algorithm.md
+      - 数据结构与算法: NOTE/Data_Structure_algorithm.md
 
     - Linux系统学习:
       - 命令指南: NOTE/linux_command.md
